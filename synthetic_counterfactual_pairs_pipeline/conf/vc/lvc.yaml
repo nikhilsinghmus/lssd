@@ -1,0 +1,5 @@
+config: ${hydra:runtime.cwd}/lvc/config/config_wav2vec_ecapa_c32.yaml
+lvc_vc_weights: ${hydra:runtime.cwd}/lvc/weights/lvc_vc_xl_vctk.pt
+se_weights: ${hydra:runtime.cwd}/lvc/weights/ecapa_tdnn_pretrained.pt
+seen_speaker_emb_gmms_pkl: ${hydra:runtime.cwd}/lvc/metadata/ecapa_tdnn_emb_gmms_all.pkl
+seen_speaker_f0_metadata_pkl:  ${hydra:runtime.cwd}/lvc/metadata/speaker_f0_metadata.pkl

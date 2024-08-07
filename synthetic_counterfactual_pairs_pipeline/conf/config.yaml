@@ -1,0 +1,29 @@
+paths:
+  current_path: ${hydra:runtime.cwd}
+  preprocess_path: ${dataset.paths.output}/stereo
+
+extensions:
+  - wav
+  - mp3
+  - m4a
+  - aac
+  - opus
+
+
+s2st:
+  # "s2st" or "t2st" (speech-based or transcript-based)
+  strategy: t2st
+  subset: # Subset indices if needed (e.g. for running multiple batch jobs)
+    from_idx: 0
+    to_idx: -1 # -1 means till the last sample
+  languages:
+    - spa
+    - fra
+    - jpn
+
+n_processes: 32
+
+defaults:
+  - model: demucs
+  - dataset: lvu
+  - vc: lvc

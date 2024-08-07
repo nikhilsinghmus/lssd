@@ -1,0 +1,5 @@
+name: LVU
+paths:
+  video:  ${hydra:runtime.cwd}/../../LVU-D/videos
+  input: ${hydra:runtime.cwd}/../../LVU-D/audios
+  output: ${hydra:runtime.cwd}/../../LVU-D/audios_sep

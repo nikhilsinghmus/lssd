@@ -1,0 +1,5 @@
+name: demucs
+host: demucs
+source: mdx_extra
+samplerate: 44100
+params: {}
