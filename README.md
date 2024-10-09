@@ -1,5 +1,5 @@
 # Looking Similar Sounding Different: Leveraging Counterfactual Cross-Modal Pairs for Audiovisual Representation Learning
-#### CVPR 2024
+#### CVPR 2024 [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Singh_Looking_Similar_Sounding_Different_Leveraging_Counterfactual_Cross-Modal_Pairs_for_Audiovisual_CVPR_2024_paper.html) [[arXiv]](https://arxiv.org/abs/2304.05600) [[Project Page]](https://nikhilsinghmus.github.io/lssd/)
 
 ![Figure](images/banner.png)
 
